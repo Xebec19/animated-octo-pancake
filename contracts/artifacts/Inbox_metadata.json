@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.4.17+commit.bdeb9e52"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "newMessage",
+						"type": "string"
+					}
+				],
+				"name": "setMessage",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getMessage",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "message",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "initialMessage",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/3_Ballot.sol": "Inbox"
+		},
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/3_Ballot.sol": {
+			"keccak256": "0x3406bd9295a2dcb513ce07d432b330aacfa8290d26474cdeb6808f9f676aa458",
+			"urls": [
+				"bzzr://9a55bca464701ab169d08b2db8e6bea279505735605f6c5fa16825efba08a76c"
+			]
+		}
+	},
+	"version": 1
+}
