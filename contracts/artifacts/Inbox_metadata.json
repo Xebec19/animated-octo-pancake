@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.4.17+commit.bdeb9e52"
+		"version": "0.4.26+commit.4563c3fc"
 	},
 	"language": "Solidity",
 	"output": {
@@ -31,6 +31,24 @@
 				],
 				"payable": false,
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "doMath",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -70,6 +88,7 @@
 		"compilationTarget": {
 			"contracts/3_Ballot.sol": "Inbox"
 		},
+		"evmVersion": "byzantium",
 		"libraries": {},
 		"optimizer": {
 			"enabled": false,
@@ -79,9 +98,9 @@
 	},
 	"sources": {
 		"contracts/3_Ballot.sol": {
-			"keccak256": "0x3406bd9295a2dcb513ce07d432b330aacfa8290d26474cdeb6808f9f676aa458",
+			"keccak256": "0xafc46a49b749177d2b0efb06691a4d6e39f2a82fc0f00ee99f6cb1c46abf70a0",
 			"urls": [
-				"bzzr://9a55bca464701ab169d08b2db8e6bea279505735605f6c5fa16825efba08a76c"
+				"bzzr://d226af5daf39ec655c8e3444e2a32e1e282fa6dbbd5d2c22c268e74db77cc55c"
 			]
 		}
 	},
