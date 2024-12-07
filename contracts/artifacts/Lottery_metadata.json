@@ -6,54 +6,49 @@
 	"output": {
 		"abi": [
 			{
+				"constant": true,
+				"inputs": [],
+				"name": "manager",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"constant": false,
-				"inputs": [
-					{
-						"name": "newMessage",
-						"type": "string"
-					}
-				],
-				"name": "setMessage",
+				"inputs": [],
+				"name": "entry",
 				"outputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
+				"payable": true,
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"constant": true,
-				"inputs": [],
-				"name": "getMessage",
-				"outputs": [
-					{
-						"name": "",
-						"type": "string"
-					}
-				],
-				"payable": false,
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"constant": true,
-				"inputs": [],
-				"name": "message",
-				"outputs": [
-					{
-						"name": "",
-						"type": "string"
-					}
-				],
-				"payable": false,
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
-						"name": "initialMessage",
-						"type": "string"
+						"name": "",
+						"type": "uint256"
 					}
 				],
+				"name": "players",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "constructor"
@@ -68,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/3_Ballot.sol": "Inbox"
+			"contracts/1_Storage.sol": "Lottery"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -79,10 +74,10 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/3_Ballot.sol": {
-			"keccak256": "0x3406bd9295a2dcb513ce07d432b330aacfa8290d26474cdeb6808f9f676aa458",
+		"contracts/1_Storage.sol": {
+			"keccak256": "0x4797e2688cc0b21d2d0eb4e679daae670cf3deb180cfcc84ebd052ab9c8c0c60",
 			"urls": [
-				"bzzr://9a55bca464701ab169d08b2db8e6bea279505735605f6c5fa16825efba08a76c"
+				"bzzr://b7df66383ae38f83687473e37ee1984a6f32c5ceb41786f016f1b04fa4c668a4"
 			]
 		}
 	},

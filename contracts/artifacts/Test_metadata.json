@@ -6,27 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"constant": false,
-				"inputs": [
-					{
-						"name": "newMessage",
-						"type": "string"
-					}
-				],
-				"name": "setMessage",
-				"outputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"constant": true,
 				"inputs": [],
-				"name": "getMessage",
+				"name": "getArrayLength",
 				"outputs": [
 					{
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"payable": false,
@@ -36,11 +22,11 @@
 			{
 				"constant": true,
 				"inputs": [],
-				"name": "message",
+				"name": "getMyArray",
 				"outputs": [
 					{
 						"name": "",
-						"type": "string"
+						"type": "uint256[]"
 					}
 				],
 				"payable": false,
@@ -48,12 +34,26 @@
 				"type": "function"
 			},
 			{
+				"constant": true,
 				"inputs": [
 					{
-						"name": "initialMessage",
-						"type": "string"
+						"name": "",
+						"type": "uint256"
 					}
 				],
+				"name": "myArray",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "constructor"
@@ -68,7 +68,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/3_Ballot.sol": "Inbox"
+			"contracts/3_Ballot.sol": "Test"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -80,9 +80,9 @@
 	},
 	"sources": {
 		"contracts/3_Ballot.sol": {
-			"keccak256": "0x3406bd9295a2dcb513ce07d432b330aacfa8290d26474cdeb6808f9f676aa458",
+			"keccak256": "0x8f9f06c0a3cbe7a32ad783b51bb3d52b67ded0284a04147100f3d0576c512970",
 			"urls": [
-				"bzzr://9a55bca464701ab169d08b2db8e6bea279505735605f6c5fa16825efba08a76c"
+				"bzzr://abaa39309541cd8339c16324b4a7be36381cf952d347d408d74cfbaeec9ad67b"
 			]
 		}
 	},

@@ -1,24 +1,19 @@
-pragma solidity ^0.4.17;
+  pragma solidity ^0.4.17;
 
-contract Inbox {
-    string public message;
+  contract Test {
+    uint[] public myArray;
 
-    function Inbox(string initialMessage) public {
-        message = initialMessage;
+    constructor() public {
+      myArray.push(1);
+      myArray.push(10);
+      myArray.push(30);
     }
 
-    function setMessage(string newMessage) public {
-        message = newMessage;
+    function getMyArray() public view returns (uint[]) {
+      return myArray;
     }
 
-    function getMessage() public view returns (string) {
-        return message;
+    function getArrayLength() public view returns(uint) {
+      return myArray.length;
     }
-
-    function doMath(int a, int b) {
-        a + b;
-        b - a;
-        a * b;
-        a == 0;
-    }
-}
+  }
