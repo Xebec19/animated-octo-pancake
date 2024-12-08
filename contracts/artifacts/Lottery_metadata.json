@@ -39,6 +39,20 @@
 			},
 			{
 				"constant": true,
+				"inputs": [],
+				"name": "getPlayers",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
 				"inputs": [
 					{
 						"name": "",
@@ -72,7 +86,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/1_Storage.sol": "Lottery"
+			"contracts/1_Lottery.sol": "Lottery"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -83,10 +97,10 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/1_Storage.sol": {
-			"keccak256": "0xe9159a08ba8988d28b0f3be6489249322663d07aabb46dc773bac99e92b36ba6",
+		"contracts/1_Lottery.sol": {
+			"keccak256": "0x65d3f5855ecf8429935c40ac4b602fa85240d83aaac409959179ca92a07ae8e8",
 			"urls": [
-				"bzzr://d78f34d26133d975041ab6f535f6970444b43b04cf4a58a99d41802dad7e79dc"
+				"bzzr://fd38b7d7988dfd77bf75f6194344343022639f7dd99f87d931a345e486d2eb95"
 			]
 		}
 	},
