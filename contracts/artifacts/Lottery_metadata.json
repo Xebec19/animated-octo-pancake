@@ -22,6 +22,15 @@
 			{
 				"constant": false,
 				"inputs": [],
+				"name": "pickWinner",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
 				"name": "entry",
 				"outputs": [],
 				"payable": true,
@@ -75,9 +84,9 @@
 	},
 	"sources": {
 		"contracts/1_Storage.sol": {
-			"keccak256": "0x4797e2688cc0b21d2d0eb4e679daae670cf3deb180cfcc84ebd052ab9c8c0c60",
+			"keccak256": "0x05ec17a31d39ac7750b741d01d3377b169fda95b83f99b9e63e96de08620b7d9",
 			"urls": [
-				"bzzr://b7df66383ae38f83687473e37ee1984a6f32c5ceb41786f016f1b04fa4c668a4"
+				"bzzr://d6ea9df054f6b0ddb67508d0a3b45c5758be3244957342c9cc7e02bd592d915a"
 			]
 		}
 	},

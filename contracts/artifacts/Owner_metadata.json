@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.28+commit.7893614a"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -87,7 +87,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/2_Owner.sol": "Owner"
+			"contracts/2_Lottery.sol": "Owner"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -101,7 +101,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/2_Owner.sol": {
+		"contracts/2_Lottery.sol": {
 			"keccak256": "0x072df1245681a805f673875fa3dfaf38cd5e37c49625fa19aab1761a66c11fe8",
 			"license": "GPL-3.0",
 			"urls": [
