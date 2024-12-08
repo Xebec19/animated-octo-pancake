@@ -24,8 +24,8 @@
 				"inputs": [],
 				"name": "pickWinner",
 				"outputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
+				"payable": true,
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -84,9 +84,9 @@
 	},
 	"sources": {
 		"contracts/1_Storage.sol": {
-			"keccak256": "0x05ec17a31d39ac7750b741d01d3377b169fda95b83f99b9e63e96de08620b7d9",
+			"keccak256": "0xe9159a08ba8988d28b0f3be6489249322663d07aabb46dc773bac99e92b36ba6",
 			"urls": [
-				"bzzr://d6ea9df054f6b0ddb67508d0a3b45c5758be3244957342c9cc7e02bd592d915a"
+				"bzzr://d78f34d26133d975041ab6f535f6970444b43b04cf4a58a99d41802dad7e79dc"
 			]
 		}
 	},
