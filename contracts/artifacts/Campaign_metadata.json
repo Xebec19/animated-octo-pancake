@@ -21,6 +21,59 @@
 			},
 			{
 				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "requests",
+				"outputs": [
+					{
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"name": "complete",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"name": "recipient",
+						"type": "address"
+					}
+				],
+				"name": "createRequest",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
 				"inputs": [],
 				"name": "minimumContribution",
 				"outputs": [
@@ -94,9 +147,9 @@
 	},
 	"sources": {
 		"contracts/3_Ballot.sol": {
-			"keccak256": "0x38783c644f48a27f53ca3ee108a995548b5b8a908cf77b05365c254c2a79615b",
+			"keccak256": "0x98c3c8ef9f177c048c7aa094e4d305156a083fb322c492eb22596a334fdac36c",
 			"urls": [
-				"bzzr://3799c2e04c127a5577fc4a29855b66b2f574e811e4a0ed28f3bc5c86fa7ad9db"
+				"bzzr://d395c9e913c106fd28b09fd68c9c47a47703362656973c0e7736e1977f0a200d"
 			]
 		}
 	},
