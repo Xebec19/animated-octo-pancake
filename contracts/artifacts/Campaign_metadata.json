@@ -96,6 +96,20 @@
 				"type": "function"
 			},
 			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "approveRequest",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"name": "minimum",
@@ -128,9 +142,9 @@
 	},
 	"sources": {
 		"contracts/3_Ballot.sol": {
-			"keccak256": "0x543dd3f99b6b4334e91c4c21510a77fc3acc6181857fd750d478e16a5f1b2dcb",
+			"keccak256": "0x45490e33605389ad26616671e0a4eb4bd7431284789bcd2eba72af81bca82ef6",
 			"urls": [
-				"bzzr://947820b36b9e5b3d0aff47d6fd962cae876c8aef4c0fd134aaaf7a15697beb6d"
+				"bzzr://e8a49b20e4abba57dd25a5dcb334d00a6d2aec89e1baa6eccd29ecb2bc00cec0"
 			]
 		}
 	},
