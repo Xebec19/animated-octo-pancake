@@ -7,63 +7,17 @@
 		"abi": [
 			{
 				"constant": true,
-				"inputs": [],
-				"name": "manager",
-				"outputs": [
-					{
-						"name": "",
-						"type": "address"
-					}
-				],
-				"payable": false,
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"constant": false,
-				"inputs": [],
-				"name": "pickWinner",
-				"outputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"constant": true,
-				"inputs": [],
-				"name": "getPlayers",
-				"outputs": [
-					{
-						"name": "",
-						"type": "address[]"
-					}
-				],
-				"payable": false,
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"constant": false,
-				"inputs": [],
-				"name": "enter",
-				"outputs": [],
-				"payable": true,
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"constant": true,
 				"inputs": [
 					{
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "players",
+				"name": "numbers",
 				"outputs": [
 					{
 						"name": "",
-						"type": "address"
+						"type": "int256"
 					}
 				],
 				"payable": false,
@@ -98,9 +52,9 @@
 	},
 	"sources": {
 		"contracts/1_Lottery.sol": {
-			"keccak256": "0x4c4cef296e63c16f8d5aecf67e663cc4a34ba3aaf1c5ebe7c31e79d00eed0ec3",
+			"keccak256": "0x802904d78c1555d389b8f15c5cdffacd9fdef853da4bf362ef38a054d089926b",
 			"urls": [
-				"bzzr://3a0a0d9aa7cfaed9a6e1c6aa6720896e0d3d6a839ab97e4b13fa2d4fec609616"
+				"bzzr://b62903b8186f29662be9ec52a4eb8b4a499586495ca003a36ebde8a891099025"
 			]
 		}
 	},

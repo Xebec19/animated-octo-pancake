@@ -87,25 +87,6 @@
 				"type": "function"
 			},
 			{
-				"constant": true,
-				"inputs": [
-					{
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "approvers",
-				"outputs": [
-					{
-						"name": "",
-						"type": "address"
-					}
-				],
-				"payable": false,
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"constant": false,
 				"inputs": [],
 				"name": "contribute",
@@ -147,9 +128,9 @@
 	},
 	"sources": {
 		"contracts/3_Ballot.sol": {
-			"keccak256": "0x98c3c8ef9f177c048c7aa094e4d305156a083fb322c492eb22596a334fdac36c",
+			"keccak256": "0x543dd3f99b6b4334e91c4c21510a77fc3acc6181857fd750d478e16a5f1b2dcb",
 			"urls": [
-				"bzzr://d395c9e913c106fd28b09fd68c9c47a47703362656973c0e7736e1977f0a200d"
+				"bzzr://947820b36b9e5b3d0aff47d6fd962cae876c8aef4c0fd134aaaf7a15697beb6d"
 			]
 		}
 	},
