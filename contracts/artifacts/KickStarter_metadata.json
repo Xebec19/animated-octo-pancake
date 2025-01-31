@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/KickStarter.sol": "KickStarter"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/KickStarter.sol": {
+			"keccak256": "0xffc64975b80df7e10048ca7c624cc8a9bf3bb5409482dfd9c74239bbcf5c0649",
+			"urls": [
+				"bzzr://313dc85c1d4841f4d174bdc6a61e650e457c6d7a9c67b8bbcc47fff9d8e90778"
+			]
+		}
+	},
+	"version": 1
+}
